@@ -1,6 +1,6 @@
 # kargo.proje
 
-private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {                                         
+{                                         
         
         String a = jTextField1.getText();
         char[] b = jPasswordField1.getPassword();
@@ -20,11 +20,9 @@ private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {
             JOptionPane.showMessageDialog(null, "Yanlış kullanıcı adı veya şifre girildi.");
         }
         package javaapplication5;
-
-
-import java.util.Random;
-import java.time.LocalTime;
-public class siparis extends javax.swing.JFrame {
+        import java.util.Random;
+        import java.time.LocalTime;
+        public class siparis extends javax.swing.JFrame {
     public static Random rand = new Random();
     public static int mah[][] = new int [4][4];
     boolean a = false;
